@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E86BC42C14CFB83F007DC401 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86BC42B14CFB83F007DC401 /* Cocoa.framework */; };
+		E86BC43614CFB83F007DC401 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E86BC43414CFB83F007DC401 /* InfoPlist.strings */; };
+		E86BC43814CFB83F007DC401 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BC43714CFB83F007DC401 /* main.m */; };
+		E86BC43C14CFB83F007DC401 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E86BC43A14CFB83F007DC401 /* Credits.rtf */; };
+		E86BC43F14CFB83F007DC401 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BC43E14CFB83F007DC401 /* AppDelegate.m */; };
+		E86BC44214CFB83F007DC401 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86BC44014CFB83F007DC401 /* MainMenu.xib */; };
+		E86BC44A14CFB83F007DC401 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86BC44914CFB83F007DC401 /* SenTestingKit.framework */; };
+		E86BC44B14CFB83F007DC401 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86BC42B14CFB83F007DC401 /* Cocoa.framework */; };
+		E86BC45314CFB83F007DC401 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E86BC45114CFB83F007DC401 /* InfoPlist.strings */; };
+		E86BC45614CFB83F007DC401 /* RestlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BC45514CFB83F007DC401 /* RestlyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E86BC44C14CFB83F007DC401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E86BC41E14CFB83F007DC401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E86BC42614CFB83F007DC401;
+			remoteInfo = Restly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E86BC42714CFB83F007DC401 /* Restly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86BC42B14CFB83F007DC401 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E86BC42E14CFB83F007DC401 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E86BC42F14CFB83F007DC401 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E86BC43014CFB83F007DC401 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E86BC43314CFB83F007DC401 /* Restly-Info.plist */ = {isa = PBXFileReference; path = "Restly-Info.plist"; sourceTree = "<group>"; };
+		E86BC43514CFB83F007DC401 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E86BC43714CFB83F007DC401 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E86BC43914CFB83F007DC401 /* Restly-Prefix.pch */ = {isa = PBXFileReference; path = "Restly-Prefix.pch"; sourceTree = "<group>"; };
+		E86BC43B14CFB83F007DC401 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E86BC43D14CFB83F007DC401 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E86BC43E14CFB83F007DC401 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E86BC44114CFB83F007DC401 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E86BC44814CFB83F007DC401 /* RestlyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestlyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86BC44914CFB83F007DC401 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E86BC45014CFB83F007DC401 /* RestlyTests-Info.plist */ = {isa = PBXFileReference; path = "RestlyTests-Info.plist"; sourceTree = "<group>"; };
+		E86BC45214CFB83F007DC401 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E86BC45414CFB83F007DC401 /* RestlyTests.h */ = {isa = PBXFileReference; path = RestlyTests.h; sourceTree = "<group>"; };
+		E86BC45514CFB83F007DC401 /* RestlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestlyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E86BC42414CFB83F007DC401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86BC42C14CFB83F007DC401 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86BC44414CFB83F007DC401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86BC44A14CFB83F007DC401 /* SenTestingKit.framework in Frameworks */,
+				E86BC44B14CFB83F007DC401 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E86BC41C14CFB83F007DC401 = {
+			isa = PBXGroup;
+			children = (
+				E86BC43114CFB83F007DC401 /* Restly */,
+				E86BC44E14CFB83F007DC401 /* RestlyTests */,
+				E86BC42A14CFB83F007DC401 /* Frameworks */,
+				E86BC42814CFB83F007DC401 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E86BC42814CFB83F007DC401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E86BC42714CFB83F007DC401 /* Restly.app */,
+				E86BC44814CFB83F007DC401 /* RestlyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E86BC42A14CFB83F007DC401 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E86BC42B14CFB83F007DC401 /* Cocoa.framework */,
+				E86BC44914CFB83F007DC401 /* SenTestingKit.framework */,
+				E86BC42D14CFB83F007DC401 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E86BC42D14CFB83F007DC401 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E86BC42E14CFB83F007DC401 /* AppKit.framework */,
+				E86BC42F14CFB83F007DC401 /* CoreData.framework */,
+				E86BC43014CFB83F007DC401 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E86BC43114CFB83F007DC401 /* Restly */ = {
+			isa = PBXGroup;
+			children = (
+				E86BC43D14CFB83F007DC401 /* AppDelegate.h */,
+				E86BC43E14CFB83F007DC401 /* AppDelegate.m */,
+				E86BC44014CFB83F007DC401 /* MainMenu.xib */,
+				E86BC43214CFB83F007DC401 /* Supporting Files */,
+			);
+			path = Restly;
+			sourceTree = "<group>";
+		};
+		E86BC43214CFB83F007DC401 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E86BC43314CFB83F007DC401 /* Restly-Info.plist */,
+				E86BC43414CFB83F007DC401 /* InfoPlist.strings */,
+				E86BC43714CFB83F007DC401 /* main.m */,
+				E86BC43914CFB83F007DC401 /* Restly-Prefix.pch */,
+				E86BC43A14CFB83F007DC401 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E86BC44E14CFB83F007DC401 /* RestlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E86BC45414CFB83F007DC401 /* RestlyTests.h */,
+				E86BC45514CFB83F007DC401 /* RestlyTests.m */,
+				E86BC44F14CFB83F007DC401 /* Supporting Files */,
+			);
+			path = RestlyTests;
+			sourceTree = "<group>";
+		};
+		E86BC44F14CFB83F007DC401 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E86BC45014CFB83F007DC401 /* RestlyTests-Info.plist */,
+				E86BC45114CFB83F007DC401 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E86BC42614CFB83F007DC401 /* Restly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86BC45914CFB83F007DC401 /* Build configuration list for PBXNativeTarget "Restly" */;
+			buildPhases = (
+				E86BC42314CFB83F007DC401 /* Sources */,
+				E86BC42414CFB83F007DC401 /* Frameworks */,
+				E86BC42514CFB83F007DC401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Restly;
+			productName = Restly;
+			productReference = E86BC42714CFB83F007DC401 /* Restly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E86BC44714CFB83F007DC401 /* RestlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86BC45C14CFB83F007DC401 /* Build configuration list for PBXNativeTarget "RestlyTests" */;
+			buildPhases = (
+				E86BC44314CFB83F007DC401 /* Sources */,
+				E86BC44414CFB83F007DC401 /* Frameworks */,
+				E86BC44514CFB83F007DC401 /* Resources */,
+				E86BC44614CFB83F007DC401 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E86BC44D14CFB83F007DC401 /* PBXTargetDependency */,
+			);
+			name = RestlyTests;
+			productName = RestlyTests;
+			productReference = E86BC44814CFB83F007DC401 /* RestlyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E86BC41E14CFB83F007DC401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E86BC42114CFB83F007DC401 /* Build configuration list for PBXProject "Restly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E86BC41C14CFB83F007DC401;
+			productRefGroup = E86BC42814CFB83F007DC401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E86BC42614CFB83F007DC401 /* Restly */,
+				E86BC44714CFB83F007DC401 /* RestlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E86BC42514CFB83F007DC401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86BC43614CFB83F007DC401 /* InfoPlist.strings in Resources */,
+				E86BC43C14CFB83F007DC401 /* Credits.rtf in Resources */,
+				E86BC44214CFB83F007DC401 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86BC44514CFB83F007DC401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86BC45314CFB83F007DC401 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E86BC44614CFB83F007DC401 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E86BC42314CFB83F007DC401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86BC43814CFB83F007DC401 /* main.m in Sources */,
+				E86BC43F14CFB83F007DC401 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86BC44314CFB83F007DC401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86BC45614CFB83F007DC401 /* RestlyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E86BC44D14CFB83F007DC401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E86BC42614CFB83F007DC401 /* Restly */;
+			targetProxy = E86BC44C14CFB83F007DC401 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E86BC43414CFB83F007DC401 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E86BC43514CFB83F007DC401 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E86BC43A14CFB83F007DC401 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E86BC43B14CFB83F007DC401 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E86BC44014CFB83F007DC401 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E86BC44114CFB83F007DC401 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E86BC45114CFB83F007DC401 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E86BC45214CFB83F007DC401 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E86BC45714CFB83F007DC401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E86BC45814CFB83F007DC401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E86BC45A14CFB83F007DC401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Restly/Restly-Prefix.pch";
+				INFOPLIST_FILE = "Restly/Restly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E86BC45B14CFB83F007DC401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Restly/Restly-Prefix.pch";
+				INFOPLIST_FILE = "Restly/Restly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E86BC45D14CFB83F007DC401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Restly.app/Contents/MacOS/Restly";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Restly/Restly-Prefix.pch";
+				INFOPLIST_FILE = "RestlyTests/RestlyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E86BC45E14CFB83F007DC401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Restly.app/Contents/MacOS/Restly";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Restly/Restly-Prefix.pch";
+				INFOPLIST_FILE = "RestlyTests/RestlyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E86BC42114CFB83F007DC401 /* Build configuration list for PBXProject "Restly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86BC45714CFB83F007DC401 /* Debug */,
+				E86BC45814CFB83F007DC401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E86BC45914CFB83F007DC401 /* Build configuration list for PBXNativeTarget "Restly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86BC45A14CFB83F007DC401 /* Debug */,
+				E86BC45B14CFB83F007DC401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E86BC45C14CFB83F007DC401 /* Build configuration list for PBXNativeTarget "RestlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86BC45D14CFB83F007DC401 /* Debug */,
+				E86BC45E14CFB83F007DC401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E86BC41E14CFB83F007DC401 /* Project object */;
+}
