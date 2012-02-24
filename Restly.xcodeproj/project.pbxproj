@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E846144114F74E4E002E50C4 /* 1330058946_picons20.png in Resources */ = {isa = PBXBuildFile; fileRef = E846144014F74E4E002E50C4 /* 1330058946_picons20.png */; };
 		E86BC42C14CFB83F007DC401 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86BC42B14CFB83F007DC401 /* Cocoa.framework */; };
 		E86BC43614CFB83F007DC401 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E86BC43414CFB83F007DC401 /* InfoPlist.strings */; };
 		E86BC43814CFB83F007DC401 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BC43714CFB83F007DC401 /* main.m */; };
@@ -30,24 +31,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E846144014F74E4E002E50C4 /* 1330058946_picons20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1330058946_picons20.png; sourceTree = "<group>"; };
 		E86BC42714CFB83F007DC401 /* Restly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86BC42B14CFB83F007DC401 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E86BC42E14CFB83F007DC401 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		E86BC42F14CFB83F007DC401 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E86BC43014CFB83F007DC401 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E86BC43314CFB83F007DC401 /* Restly-Info.plist */ = {isa = PBXFileReference; path = "Restly-Info.plist"; sourceTree = "<group>"; };
+		E86BC43314CFB83F007DC401 /* Restly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Restly-Info.plist"; sourceTree = "<group>"; };
 		E86BC43514CFB83F007DC401 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E86BC43714CFB83F007DC401 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E86BC43914CFB83F007DC401 /* Restly-Prefix.pch */ = {isa = PBXFileReference; path = "Restly-Prefix.pch"; sourceTree = "<group>"; };
+		E86BC43914CFB83F007DC401 /* Restly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Restly-Prefix.pch"; sourceTree = "<group>"; };
 		E86BC43B14CFB83F007DC401 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		E86BC43D14CFB83F007DC401 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E86BC43D14CFB83F007DC401 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E86BC43E14CFB83F007DC401 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E86BC44114CFB83F007DC401 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E86BC44814CFB83F007DC401 /* RestlyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestlyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86BC44914CFB83F007DC401 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E86BC45014CFB83F007DC401 /* RestlyTests-Info.plist */ = {isa = PBXFileReference; path = "RestlyTests-Info.plist"; sourceTree = "<group>"; };
+		E86BC45014CFB83F007DC401 /* RestlyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RestlyTests-Info.plist"; sourceTree = "<group>"; };
 		E86BC45214CFB83F007DC401 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E86BC45414CFB83F007DC401 /* RestlyTests.h */ = {isa = PBXFileReference; path = RestlyTests.h; sourceTree = "<group>"; };
+		E86BC45414CFB83F007DC401 /* RestlyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestlyTests.h; sourceTree = "<group>"; };
 		E86BC45514CFB83F007DC401 /* RestlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestlyTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 		E86BC41C14CFB83F007DC401 = {
 			isa = PBXGroup;
 			children = (
+				E846144014F74E4E002E50C4 /* 1330058946_picons20.png */,
 				E86BC43114CFB83F007DC401 /* Restly */,
 				E86BC44E14CFB83F007DC401 /* RestlyTests */,
 				E86BC42A14CFB83F007DC401 /* Frameworks */,
@@ -226,6 +229,7 @@
 				E86BC43614CFB83F007DC401 /* InfoPlist.strings in Resources */,
 				E86BC43C14CFB83F007DC401 /* Credits.rtf in Resources */,
 				E86BC44214CFB83F007DC401 /* MainMenu.xib in Resources */,
+				E846144114F74E4E002E50C4 /* 1330058946_picons20.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +439,7 @@
 				E86BC45B14CFB83F007DC401 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E86BC45C14CFB83F007DC401 /* Build configuration list for PBXNativeTarget "RestlyTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +448,7 @@
 				E86BC45E14CFB83F007DC401 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
